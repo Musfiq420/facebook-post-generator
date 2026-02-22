@@ -23,12 +23,24 @@ class FacebookPostResponse(BaseModel):
 
 
 
+# class GenerateAndPostRequest(BaseModel):
+#     post_type: Optional[str] = None
+#     emotion: Optional[str] = None
+#     audience: Optional[str] = None
+#     angle: Optional[str] = None
+#     word_limit: int = 100
+
 class GenerateAndPostRequest(BaseModel):
+    health_domain: Optional[str] = None
     post_type: Optional[str] = None
     emotion: Optional[str] = None
     audience: Optional[str] = None
-    angle: Optional[str] = None
-    word_limit: int = 100
+    content_format: Optional[str] = None
+    cta_style: Optional[str] = None
+    trust_signal: Optional[str] = None
+    content_goal: Optional[str] = None
+
+    word_limit: int = 120
 
 
 class GenerateAndPostResponse(BaseModel):
