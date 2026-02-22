@@ -45,12 +45,10 @@ SYSTEM_PROMPT = """
 def build_user_prompt(data, variation: dict) -> str:
     
     if data.post_type == "মৌসুমী স্বাস্থ্য সতর্কতা (Seasonal Health Alert)":
-        season = variation['season']
+        season = "সিজন: "+variation['season']
     else:
         season = ""
 
-    print(data.post_type)
-    
     return f"""
 আজকের জন্য একটি ফেসবুক পোস্ট লেখো।
 
@@ -64,7 +62,7 @@ CTA স্টাইল: {data.cta_style}
 বিশ্বাসযোগ্যতার উপাদান: {data.trust_signal}
 সময়: {variation["day_context"]}
 স্বাস্থ্য প্রসঙ্গ: {variation["seasonal_context"]}
-সিজন: {season}
+{season}
 
 লেখার কাঠামো:
 - শুরুতে পাঠকের সমস্যা বা পরিস্থিতির সাথে সরাসরি relate করবে
