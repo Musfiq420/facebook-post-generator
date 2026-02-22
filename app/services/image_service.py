@@ -130,49 +130,6 @@ DOMAIN_SCENES = {
     ],
 }
 
-# # --- Props by Post Type ---
-# POST_TYPE_PROPS = {
-#     "সমস্যা সচেতনতা (Problem Awareness)": [
-#         "wilted plant beside a healthy one symbolizing contrast",
-#         "dark stormy clouds over a landscape transitioning to sunlight",
-#         "dried cracked earth beside a green patch",
-#     ],
-#     "সমাধান শিক্ষামূলক পোস্ট (Solution Education)": [
-#         "hijama cupping jars with medicinal herbs neatly arranged",
-#         "wellness tools with natural ingredients on a wooden surface",
-#         "herbal remedies and cupping set displayed on a clean tray",
-#     ],
-#     "বিশ্বাস তৈরির পোস্ট (Trust Building)": [
-#         "clean organized clinic tools with professional setup",
-#         "neatly arranged cupping therapy tools on a clinical tray",
-#         "professional wellness equipment with calm background",
-#     ],
-#     "রোগীর সাফল্যের গল্প (Success Story)": [
-#         "bright sunlight breaking through clouds over a landscape",
-#         "blooming flower in a garden with morning dew",
-#         "fresh green plants thriving in natural light",
-#     ],
-#     "মিথ ভাঙা (Myth Busting)": [
-#         "traditional cupping jars beside modern medical tools",
-#         "two contrasting objects side by side on a surface",
-#         "ancient healing tools with a clean scientific background",
-#     ],
-#     "সীমিত অফার / আর্জেন্সি পোস্ট (Urgency & Offer)": [
-#         "calendar and hijama tools on a clean surface",
-#         "seasonal flowers with wellness objects suggesting timing",
-#         "cupping set with a soft warm light suggesting urgency",
-#     ],
-#     "মৌসুমী স্বাস্থ্য সতর্কতা (Seasonal Health Alert)": [
-#         "seasonal landscape elements with health tools nearby",
-#         "weather-themed natural setting with wellness objects",
-#         "seasonal fruits and herbs with cupping tools",
-#     ],
-#     "আত্মিক ও শান্তিপূর্ণ": [
-#         "prayer beads and hijama cupping jars on a soft cloth",
-#         "open Quran beside natural healing tools in soft light",
-#         "incense and herbal elements in a peaceful corner",
-#     ],
-# }
 
 POST_TYPE_PROPS = {
     "সমস্যা সচেতনতা (Problem Awareness)": [
